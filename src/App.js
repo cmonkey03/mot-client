@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Sound from ‘react-sound’;
+import Sound from 'react-sound';
 
 const src1 = '/America1775.jpg'
 
@@ -11,6 +10,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={src1} className="App-logo" alt="logo" />
+          <Sound
+            url="the-two-sisters.m4a"
+            playStatus={Sound.status.PLAYING}
+            />
         </header>
       </div>
     );
