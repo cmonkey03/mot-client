@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Sound from ‘react-sound’;
 
 const src1 = '/America1775.jpg'
 
